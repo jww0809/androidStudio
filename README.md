@@ -20,5 +20,6 @@
 cd到你想放代码的文件夹，然后直接在git上使用命令git clone "url"
 这个时候就能在本地文件夹上看到下载的代码
 
-
-
+如果遇到下面这个错误说明你更改过github网站修改过README.md文件，要先更新服务器上的变化才能提交。
+ ! [rejected]        master -> master (fetch first)
+ 解决方法：先git pull再git push就行
